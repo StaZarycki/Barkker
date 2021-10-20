@@ -1,0 +1,15 @@
+{
+  "name": "barker",
+  "version": "1.0.0",
+  "description": "Twitter clone",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "StaZarycki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
+}
