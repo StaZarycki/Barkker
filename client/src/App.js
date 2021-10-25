@@ -1,9 +1,12 @@
 import './App.css';
+import SidePanel from './components/SidePanel.js';
+import MainPanel from './components/MainPanel.js';
 
 function App() {
   return (
-    <div className="App p-6 max-w-sm mx-auto text-purple-600">
-      <p>Test</p>
+    <div className="App flex bg-brown-dark h-screen">
+      <SidePanel/>
+      <MainPanel/>
     </div>
   );
 }

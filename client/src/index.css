@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .sidepanel-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto
+    shadow-lg cursor-pointer hover:bg-brown-light transition-all rounded-full;
+  }
+}
