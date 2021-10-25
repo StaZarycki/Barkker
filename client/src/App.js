@@ -1,10 +1,9 @@
 import './App.css';
-import SideBar from './components/SideBar';
 
 function App() {
   return (
-    <div className="flex">
-      <SideBar/>
+    <div className="App p-6 max-w-sm mx-auto text-purple-600">
+      <p>Test</p>
     </div>
   );
 }
